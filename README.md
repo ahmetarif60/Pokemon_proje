@@ -1,6 +1,6 @@
 <h1>Pokemon proje</h1>
 
-Proje HTML,CSS ve JAVASRİPT ile oluşturulmuştur.İçerinde 150 adet farklı renkli kartlar bulunmaktdır ve arama yerinden istediğimiz kartar bulunmaktadır.
+proje HTML,CSS ve JAVASRİPT ile oluşturulmuştur.İçerinde 150 adet farklı renkli kartlar bulunmaktdır ve arama yerinden istediğimiz kartar bulunmaktadır.
 
 <h1>Proje gifi<h1>
 
