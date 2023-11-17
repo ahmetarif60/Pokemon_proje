@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Inter+Tight:wght@100;200;300;400;500;700;800&family=Open+Sans:wght@300&family=Playpen+Sans:wght@100;500&family=Poppins:wght@100;400;500;700&family=Sniglet&display=swap");
+
+body {
+  font-family: "Sniglet", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d4);
+}
+h1 {
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
+}
+
+.search {
+  position: relative;
+}
+
+.searchInput {
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  height: 10px;
+  width: 15px;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+.searchBtn,
+.searchInput:focus {
+  outline: none;
+}
+.searchBtn {
+  background-color: #264653;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.search.active .searchInput {
+  width: 100px;
+  background-color: #fff;
+}
+.search.active .searchBtn {
+  transform: translateX(88px);
+  background-color: #fff;
+  color: tomato;
+}
+
+.poke-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 85%;
+  align-items: center;
+}
+
+.pokemon {
+  margin: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
+.image-container {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 75% 30% 60% 40% / 60% 40% 60% 40%;
+}
+.image-container img {
+  width: 160px;
+  opacity: 0.75;
+  transition: all 0.3s ease;
+}
+.pokemon:hover .image-container img {
+  transform: scale(1.5);
+  opacity: 1.5;
+}
+
+.poke-info {
+  margin-top: 20px;
+}
+.poke-id {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3rem;
+  padding: 5px 10px;
+}
+
+.poke-name {
+  letter-spacing: 2px;
+  margin: 15px 0 10px;
+  text-transform: capitalize;
+}
+.small small {
+  padding: 0px 5px;
+}
+poke-type {
+  margin-top: 10px;
+}
